@@ -108,6 +108,7 @@ airdecap-ng -w DE:AD:BE:EF:01 monitored.pcap shows decrypted traffic
 load monitored-dec.pcap into wireshark and 'follow TCP stream':
  - username=Admin&password=CONTEXTIS%7Ba9a2eeb4b29a95ca4d98d45b4d90d661a6f35483605d6a1231084ff7d2336e1e%2Ctalent%40ctx.is%7D
 {a9a2eeb4b29a95ca4d98d45b4d90d661a6f35483605d6a1231084ff7d2336e1e,talent@ctx.is}
+
 RFID Signal Trace:
 I was not able to extract the sha256 from the waveform, I have tried to convert the signal into binary and see if I could get the 32 bytes key.
 
