@@ -69,6 +69,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 Binary:
 video: https://www.youtube.com/watch?v=38TKHB6DSC0
+My elegant solution, it looks easy but you need to have special skills to carve it.
 unzip file
 less reversing-chal01.base64
 cat reversing-chal01.base64|base64 --decode > decoded-reversing
